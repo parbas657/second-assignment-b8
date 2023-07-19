@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap');
 body{
     font-family: 'Oswald', sans-serif;
-
 }
-
 .nav-container{
     height: 70px;
     background-color:#ffffff;
@@ -14,18 +12,15 @@ body{
     width: 40px;
     height: 20px;
     margin-right: 10px;
-   
 }
 .logo-container{
     display: flex;
     align-items: center;
 }
 .text-container{
-    
 display: flex;
 align-items: center;
 gap: 25px;
-
 }
 .text-color{
 color:#ff42a5 ;
@@ -34,10 +29,8 @@ color:#ff42a5 ;
 font-size:25px;
 font-weight:800;
 }
-
 .text-container a{
     text-decoration: none;
-   
 }
 .btn-container{
   display: flex;
@@ -58,7 +51,6 @@ font-weight:800;
     display: flex;
     justify-content: space-around;
 }
-
 .btn-style1{
   padding: 5px 10px;
   border-radius: 10px;
@@ -85,7 +77,6 @@ width:300px;
 }
 .img-sizing{
     width: 200px;
-  
 }
 .img-container{
 display: flex;
@@ -112,8 +103,6 @@ border: none;
     width: 300PX;
     text-align: center;
     margin: 0 auto;
-  
-
 }
 .position-div{
     height: 70vh;
@@ -134,9 +123,7 @@ position: relative;
     position: absolute;
     left: -100px;
     bottom: -20px;
- 
 }
-
 .heading-style{
     color: #ff42a5;
 }
@@ -162,10 +149,7 @@ border-radius: 10px;
 padding: 5px 15px;
 height: 40px;
 color:#ff42a5; 
-
 }
-
-
 
 /* footer   section start */
 .footer-section{
@@ -199,4 +183,19 @@ color:#ff42a5;
     align-items: center;
     color: #ffffff;
     gap: 10px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .nav-container{
+       flex-direction: column;
+    }
+    .text-container{
+        flex-direction: column;
+    }
 }
